@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+} 
+main{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav{
+    margin-bottom: 100px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgb(0% 0% 0% / 0.08) 0px 0px 28px 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0;
+    margin-right: 0;
+    top:0px;
+}
+.right_nav{
+    width: 50%;
+}
+.right_nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_nav a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content_home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    min-width: 815px;
+    box-shadow: rgb(0% 0% 0% / 0.08) 0px 0px 28px 0px;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: left;
+}
+.home_page{
+position: relative;
+width: 800px;
+min-width: 800px;
+}
+
+.hp_title h2 {
+background-color: rgb(80% 90% 100%);
+background-size: 14px 14px;
+border: 1px solid rgb(72% 85% 100%);
+border-radius: 3.5px;
+color: rgb(15%, 15%, 37%);
+font-size: 21px;
+font-weight: 500;
+padding: 10px 14px;
+text-align: justify;
+}
+.fe{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.flag{
+    margin: 20px;
+}
+.top_footer{
+    display: flex;
+    width: 100%;
+    background-color:#abb8c3;
+    margin-top: 20px;
+}
+.left_footer{
+    display: flex;
+    text-align: start;
+}
+.left_footer img{
+    width: 20%;
+    height: 100%;
+    margin-right: 20px;
+}
+.left_footer p{
+    padding: 20px;
+    border-left: 1px solid black;
+}
+.right_footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:#abb8c3;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.bottom_footer {
+    text-align: center;
+    background-color: aqua;
+    margin: 0;
+    padding: 5px;
+}

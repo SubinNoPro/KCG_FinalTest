@@ -1,0 +1,73 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content_food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    min-width: 815px;
+    box-shadow: rgb(0% 0% 0% / 0.08) 0px 0px 28px 0px;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: left;
+}
+
+.title_foods {
+    width: 800px;
+    min-width: 800px;
+}
+
+.title_foods img {
+    width: 800px;
+    height: 531px;
+}
+
+.food {
+    position: relative;
+    width: 800px;
+    min-width: 800px;
+}
+
+.food_title h2 {
+    background-color: rgb(80% 90% 100%);
+    background-size: 14px 14px;
+    border: 1px solid rgb(72% 85% 100%);
+    border-radius: 3.5px;
+    color: rgb(15%, 15%, 37%);
+    font-size: 21px;
+    font-weight: 500;
+    padding: 10px 14px;
+    text-align: justify;
+}
+
+.pagination {
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
